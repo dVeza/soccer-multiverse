@@ -42,8 +42,10 @@ It's a simple API that generates a team of players for a given universe.
 
 ## Running the project
 
+
 ```bash
-docker compose up -d
+brew install uv
+docker compose up -d # postgres
 uv run uvicorn src.main:app --reload
 ```
 
